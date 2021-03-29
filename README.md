@@ -1,8 +1,8 @@
 # KotlinBottomNavSample
 Kotlin Bottom Navigation Sample
 
-##Dependencies
-```java
+## Dependencies
+```kotlin
 dependencies {
 
     //RxJava adapter
