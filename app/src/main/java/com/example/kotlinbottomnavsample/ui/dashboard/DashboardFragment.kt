@@ -1,4 +1,4 @@
-package com.example.kotlinbottomnavsample.ui.ui.dashboard
+package com.example.kotlinbottomnavsample.ui.dashboard
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -19,8 +19,7 @@ class DashboardFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        dashboardViewModel =
-            ViewModelProvider(this).get(DashboardViewModel::class.java)
+        dashboardViewModel = ViewModelProvider(this).get(DashboardViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_dashboard, container, false)
         val textView: TextView = root.findViewById(R.id.text_dashboard)
         dashboardViewModel.text.observe(viewLifecycleOwner, Observer {

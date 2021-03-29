@@ -1,4 +1,4 @@
-package com.example.kotlinbottomnavsample.ui.ui.dashboard
+package com.example.kotlinbottomnavsample.ui.dashboard
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
